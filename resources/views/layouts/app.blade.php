@@ -30,6 +30,9 @@
             </div>
             <ul class="flex justify-center items-center gap-3">
                 <li>
+                    <a href="/blog">Blog</a>
+                </li>
+                <li>
                     {{-- Authentication Links --}}
                     @guest
                     @if (Route::has("login"))
